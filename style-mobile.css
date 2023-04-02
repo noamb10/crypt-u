@@ -1,0 +1,28 @@
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Add your mobile styles here */
+    body {
+      font-size: 16px;
+    }
+    header {
+      height: 60px;
+    }
+    .logo img {
+      max-width: 100px;
+    }
+  }
+  
+  /* Styles for desktop devices */
+  @media only screen and (min-width: 601px) {
+    /* Add your desktop styles here */
+    body {
+      font-size: 18px;
+    }
+    header {
+      height: 80px;
+    }
+    .logo img {
+      max-width: 150px;
+    }
+  }
+  
